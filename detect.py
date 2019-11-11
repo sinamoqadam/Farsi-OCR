@@ -11,7 +11,6 @@ def arg_parse():
     """
     parser = argparse.ArgumentParser(description='Farsi digit Detection Network')
 
-    parser.add_argument("--bs", dest="bs", help="Batch size", default=1)
     parser.add_argument("--cfg", dest='cfgfile', help=
     "Config file",
                         default="cfg/architecture.cfg", type=str)
