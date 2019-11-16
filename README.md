@@ -30,7 +30,7 @@ Doing so, you'll see something like this:
     
 
 architecture.cfg contains details about batch size, epochs, optimizer functions, and etc., as well as network structure layers.
-To modify CNN structure, you can change the architecture.cfg or making new config files in its format, and pass it to network:
+To modify CNN structure, you can change the architecture.cfg or make new config files in its format, and pass it to network:
 
     python detect.py --cfg "path/to/configFile.cfg"
     
